@@ -1,0 +1,28 @@
+{
+  "name": "dashboardrrf",
+  "version": "0.2.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
+    "server": "node server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "buildcli": "cd client && yarn build && cd .."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "express": "^4.16.4",
+    "express-sse": "^0.5.0",
+    "http-proxy-middleware": "^0.19.1",
+    "jsonfile": "^5.0.0",
+    "request": "^2.88.0",
+    "slice-file": "^1.0.0",
+    "xlsx": "^0.14.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}

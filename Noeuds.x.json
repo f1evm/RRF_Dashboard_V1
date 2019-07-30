@@ -1,0 +1,122 @@
+[
+    {
+        "name": "(53) F1EVM S",
+        "location": "-0.8864594,48.0978018,0",
+        "type": "link",
+        "info": "Soyouz",
+        "lat": "48.0978018",
+        "lon": "-0.8864594"
+    },
+    {
+        "name": "(39) F6ECN U",
+        "location": "5.453889,46.746111",
+        "type": "hotspot",
+        "info": "439.500 MHz - CTCSS 71.9",
+        "lat": "46.746111",
+        "lon": "5.453889"
+    },
+    {
+        "name": "(28) F1DSO H",
+        "location": "1.455955,48.432330",
+        "type": "hotspot",
+        "info": "144.925 MHz - CTCSS 127.3",
+        "lat": "48.432330",
+        "lon": "1.455955"
+    },
+    {
+        "name": "(53) F0EAZ V",
+        "location": "-0.920333,48.293167",
+        "type": "hotspot",
+        "info": "145.2375 MHz - CTCSS 103.5 Hz",
+        "lat": "48.293167",
+        "lon": "-0.920333"
+    },
+    {
+        "name": "(28) F0GEX H",
+        "location": "1.357500,48.466667",
+        "type": "hotspot",
+        "info": "145.2875 MHz - CTCSS 127.3 Hz",
+        "lat": "48.466667",
+        "lon": "1.357500"
+    },
+    {
+        "name": "(26) F1NUU U",
+        "location": "4.764345, 44.346410",
+        "type": "hotspot",
+        "info": "434.975 MHz - CTCSS 123 Hz",
+        "lat": " 44.346410",
+        "lon": "4.764345"
+    },
+    {
+        "name": "(17) F4HES loc",
+        "location": "-1.005208,45.615421",
+        "type": "hotspot",
+        "info": "--",
+        "lat": "45.615421",
+        "lon": "-1.005208"
+    },
+    {
+        "name": "SATELLITE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Satellite http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "LOCAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Local http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "BAVARDAGE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Bavardage http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "INTERNATIONAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon International http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "TECHNIQUE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Technique http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF3",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 3 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF2",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 2 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Tête de réseau http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    }
+]

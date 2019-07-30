@@ -1,0 +1,74 @@
+[
+    {
+        "name": "SATELLITE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Satellite http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "LOCAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Local http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "BAVARDAGE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Bavardage http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "INT",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur 3 Salon International http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "INTERNATIONAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon International http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "TECHNIQUE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Technique http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF3",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 3 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF2",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 2 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Tête de réseau http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    }
+]

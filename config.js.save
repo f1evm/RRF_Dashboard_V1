@@ -1,0 +1,73 @@
+const PORT = 80;
+
+const SALONS = [
+    {name: "RRF",
+	file: "/tmp/svxlink.log",
+	url: "http://",
+	api: "/api/svxlink",
+	stream: "/realtime",
+	audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	audioStream: "/stream"
+    },
+    {name: "technique", 
+        file: "/tmp/technique.log",
+	url:"http://rrf.f5nlg.ovh:82", 
+        api: "/api/svxlink", 
+        stream:"/realtime", 
+        audioUrl:"http://rrf2.f5nlg.ovh:8000",
+        audioStream:"/technique"
+    },
+    {name: "international",
+	file: "/tmp/urgence.log",
+	url: "",
+	api: "",
+	stream:"",
+	audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	audioStream:"/urgence"
+    },
+    {name: "bavardage",
+	file: "",
+	url: "http://fon.f1tzo.com:8080",
+	api: "/api/svxlink/bavardage",
+	stream: "/realtime/bavardage",
+	audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	audioStream: "/bavardage"
+    }, 
+    {name: "local",
+	file: "",
+	url: "http://fon.f1tzo.com:8080",
+	api: "/api/svxlink/local",
+	stream: "/realtime/local",
+	audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	audioStream: "/local"
+    },
+    {name: "satellite", 
+        file: "",
+	url:"http://rrf2.f5nlg.ovh:8080", 
+        api: "/api/svxlink/satellite", 
+        stream:"/realtime/satellite", 
+        audioUrl:"http://rrf2.f5nlg.ovh:8000",
+        audioStream:"/satellite"
+    },
+    {name: "FON",
+	file: "",
+	url: "http://f1tzo.com:81",
+	api: "api/svxlink",
+	stream: "/realtime",
+	audioUrl: "http://f1tzo.com:8000",
+	audioStream: "/stream"
+    }
+  ];
+  
+  const EVENTS = [
+	'ReflectorLogic.MsgNodeList',
+	'ReflectorLogic.MsgNodeLeft',
+	'ReflectorLogic.MsgNodeJoined',
+	'ReflectorLogic.MsgTalkerStart',
+	'ReflectorLogic.MsgTalkerStop',
+	'spotnik.network'
+];
+
+module.exports.PORT=PORT;
+module.exports.SALONS=SALONS;
+module.exports.EVENTS=EVENTS;

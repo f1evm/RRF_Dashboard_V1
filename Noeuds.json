@@ -1,0 +1,1328 @@
+[
+    {
+        "name": "(22) F5ZIN T",
+        "location": "-3.4476471,48.5575231",
+        "type": "relais",
+        "info": "145.400MHz , 430.400MHz +9.4MHz CTCSS 71.9Hz",
+        "sysop": "F5NLG",
+        "lat": 48.5575231,
+        "lon": -3.4476471
+    },
+    {
+        "name": "(17) F4KLA V",
+        "location": "-1.0053992,45.6152949",
+        "type": "link",
+        "info": "145.350MHz CTCSS 162.2Hz",
+        "sysop": "F4HES",
+        "lat": 45.6152949,
+        "lon": -1.0053992
+    },
+    {
+        "name": "(29) F5ZJX T",
+        "location": "-3.8397217,48.5893258",
+        "type": "relais",
+        "info": "145.650MHz -600KHz, R2 tone 71.9Hz                   29.630MHZ -100KHZ, RH2 tone 71.9Hz",
+        "sysop": "F5NLG",
+        "lat": 48.5893258,
+        "lon": -3.8397217
+    },
+    {
+        "name": "(22) F1ZEE R",
+        "location": "-3.3672667,48.4880553",
+        "type": "relais",
+        "info": "145,600Mhz -600Khz,  CTCSS 71.9Hz",
+        "lat": 48.4880553,
+        "lon": -3.3672667
+    },
+    {
+        "name": "(44) F5ZEM R",
+        "location": "-1.5600586,47.2046424",
+        "type": "intermittent",
+        "info": "relais UHF 430.050 + 9.4Mhz déclenchement 1750Hz + 99# pour le RRF. et re déclenchement 1750Hz.",
+        "sysop": "F3KT",
+        "lat": 47.2046424,
+        "lon": -1.5600586
+    },
+    {
+        "name": "(49) F6JSP V",
+        "location": "-0.2899629,47.4715605",
+        "type": "link",
+        "info": "145.2875MHz TCS 250.3Hz",
+        "lat": 47.4715605,
+        "lon": -0.2899629
+    },
+    {
+        "name": "(55) F0EJB V",
+        "location": "5.8261871,48.9643287",
+        "type": "link",
+        "info": "145.4125MHZ tone 127.3Hz",
+        "lat": 48.9643287,
+        "lon": 5.8261871
+    },
+    {
+        "name": "(53) F1EVM S",
+        "location": "-0.8864594,48.0978018",
+        "type": "hotspot",
+        "info": "Soyouz",
+        "lat": 48.0978018,
+        "lon": -0.8864594
+    },
+    {
+        "name": "(59) F1TYP V",
+        "location": "3.3515167,50.489187",
+        "type": "link",
+        "info": "145.2875MHz CTCSS 123Hz",
+        "lat": 50.489187,
+        "lon": 3.3515167
+    },
+    {
+        "name": "(LX) LX2OOO V",
+        "location": "6.0972643,49.5186468",
+        "type": "link",
+        "info": "145.425Mhz TCS 103.5Hz",
+        "lat": 49.5186468,
+        "lon": 6.0972643
+    },
+    {
+        "name": "(62) F5ZGJ V",
+        "location": "2.9094887,50.451766",
+        "type": "link",
+        "info": "145.350 MHz CTCSS 123Hz",
+        "sysop": "F4HTN",
+        "lat": 50.451766,
+        "lon": 2.9094887
+    },
+    {
+        "name": "(35) F1TZO V",
+        "location": "-2.0549583,48.6347237",
+        "type": "link",
+        "info": "144.525MHz CTCSS 71.9Hz",
+        "lat": 48.6347237,
+        "lon": -2.0549583
+    },
+    {
+        "name": "(79) F5LRQ T",
+        "location": "-0.6557465,46.86113",
+        "type": "relais",
+        "info": "432.625MHz 145.3125MHz  Ctcss 103.5Hz",
+        "lat": 46.86113,
+        "lon": -0.6557465
+    },
+    {
+        "name": "(42) F5ZBR R",
+        "location": "4.3945313,45.4331536",
+        "type": "relais",
+        "info": "145.6125MHz -0.6KHz Tone 123Hz",
+        "sysop": "F4ASS",
+        "lat": 45.4331536,
+        "lon": 4.3945313
+    },
+    {
+        "name": "(22) F4VSJ U",
+        "location": "-3.2693768,48.1865185",
+        "type": "relais",
+        "info": "430.5375MHz CTCSS 71.9Hz et relais : 438.775 MHZ - 7.6Mhz  CTCSS 71.9 Hz",
+        "lat": 48.1865185,
+        "lon": -3.2693768
+    },
+    {
+        "name": "(29) F6CIU V",
+        "location": "-4.550904,48.6094478",
+        "type": "link",
+        "info": "145.325MHz TCS71.9Hz",
+        "lat": 48.6094478,
+        "lon": -4.550904
+    },
+    {
+        "name": "(50) F6KFW V",
+        "location": "-1.6297531,49.6358421",
+        "type": "link",
+        "info": "145.5875 MHz CTCSS 250.3Hz ",
+        "lat": 49.6358421,
+        "lon": -1.6297531
+    },
+    {
+        "name": "(29) F4ELI T",
+        "location": "-4.7333694,48.4342904",
+        "type": "relais",
+        "info": "432.975MHz / 29.170 MHz CTCSS 71.9Hz",
+        "lat": 48.4342904,
+        "lon": -4.7333694
+    },
+    {
+        "name": "(67) F1ZDD T",
+        "location": "7.4750483,48.4798026",
+        "type": "relais",
+        "info": "430.2375 MHz +9.4 MHz / 29.160MHZ  & 50.520MHZ  CTCSS 67Hz",
+        "sysop": "F5SWB",
+        "lat": 48.4798026,
+        "lon": 7.4750483
+    },
+    {
+        "name": "(38) F6IRG 10M",
+        "location": "5.0533652,45.3896493",
+        "type": "link",
+        "info": "29.140MHz CTCSS 123Hz ",
+        "lat": 45.3896493,
+        "lon": 5.0533652
+    },
+    {
+        "name": "(33) F5LCT V",
+        "location": "-1.1168289,45.0051076",
+        "type": "link",
+        "info": "145.350MHz CTCSS 123Hz",
+        "lat": 45.0051076,
+        "lon": -1.1168289
+    },
+    {
+        "name": "(22) F5ZMU U",
+        "location": "-3.1259537,48.5611587",
+        "type": "link",
+        "info": "432.975 MHz CTCSS 71.9Hz",
+        "sysop": "F6HRP",
+        "lat": 48.5611587,
+        "lon": -3.1259537
+    },
+    {
+        "name": "(60) F1ZCY T",
+        "location": "2.0005417,49.3718669",
+        "type": "relais",
+        "info": "145.400MHz / 430.300MHz + 1.6MHz CTCSS 123Hz",
+        "sysop": "F1PRY",
+        "lat": 49.3718669,
+        "lon": 2.0005417
+    },
+    {
+        "name": "(80) F5KOU V",
+        "location": "2.6844406,49.9900839",
+        "type": "link",
+        "info": "145.225MHz CTCSS 123Hz",
+        "sysop": "F4EHY",
+        "lat": 49.9900839,
+        "lon": 2.6844406
+    },
+    {
+        "name": "(12) F5ZGE V",
+        "location": "2.5817577,44.3553941",
+        "type": "link",
+        "info": "144.6375MHz CTCSS 71.9 ",
+        "sysop": "F5FPI",
+        "lat": 44.3553941,
+        "lon": 2.5817577
+    },
+    {
+        "name": "(53) F4KKV V",
+        "location": "-0.7899857,48.3991207",
+        "type": "link",
+        "info": "145.3875MHZ CTCSS 103.5Hz",
+        "sysop": "F1EVM",
+        "lat": 48.3991207,
+        "lon": -0.7899857
+    },
+    {
+        "name": "(22) F4GGU V",
+        "location": "-2.8815079,48.6059008",
+        "type": "link",
+        "info": "145.350MHz CTCSS 71.9Hz",
+        "lat": 48.6059008,
+        "lon": -2.8815079
+    },
+    {
+        "name": "(60) F1ZKG 10M",
+        "location": "2.0395088,49.3336245",
+        "type": "relais",
+        "info": "RH6 29.670 MHZ -100KHz CTCSS 123Hz",
+        "sysop": "F1PRY",
+        "lat": 49.3336245,
+        "lon": 2.0395088
+    },
+    {
+        "name": "(78) F5ZEQ R",
+        "location": "2.1219063,48.9254882",
+        "type": "intermittent",
+        "info": "145.750 MHZ -0.6 MHZ 192.8Hz 96# pour le RRF ",
+        "lat": 48.9254882,
+        "lon": 2.1219063
+    },
+    {
+        "name": "(22) F1ZNW U",
+        "location": "-2.5349236,48.5582048",
+        "type": "relais",
+        "info": "439.8375 - 9.4MHz CTCSS 71.9Hz",
+        "sysop": "F1BSR",
+        "lat": 48.5582048,
+        "lon": -2.5349236
+    },
+    {
+        "name": "(66) F0GVD V",
+        "location": "2.07515,42.5777499",
+        "type": "link",
+        "info": "145.3375MHz Ctcss 74.4Hz",
+        "lat": 42.5777499,
+        "lon": 2.07515
+    },
+    {
+        "name": "(QC) VA2NRJ V",
+        "location": "-73.3827757,45.5728555",
+        "type": "link",
+        "info": "145.550 MHz CTCSS 250.3Hz",
+        "lat": 45.5728555,
+        "lon": -73.3827757
+    },
+    {
+        "name": "(45) F1ZQD V",
+        "location": "2.7339269,47.9975207",
+        "type": "link",
+        "info": "144.9625 MHz CTCSS 123 Hz",
+        "sysop": "F4HKP",
+        "lat": 47.9975207,
+        "lon": 2.7339269
+    },
+    {
+        "name": "(62) F5MIV V",
+        "location": "2.7601422,50.2777075",
+        "type": "link",
+        "info": "144.975 MHz CTCSS 123Hz",
+        "lat": 50.2777075,
+        "lon": 2.7601422
+    },
+    {
+        "name": "(54) F1ZPA V",
+        "location": "6.8890488,48.5715329",
+        "type": "link",
+        "info": "145.250 MHz CTCSS 250.3 Hz",
+        "sysop": "F4BIT",
+        "lat": 48.5715329,
+        "lon": 6.8890488
+    },
+    {
+        "name": "(44) F4GBV V",
+        "location": "-2.0871824,47.4372173",
+        "type": "link",
+        "info": "145.250MHz CTCSS 103.5 Hz",
+        "lat": 47.4372173,
+        "lon": -2.0871824
+    },
+    {
+        "name": "(53) F5BUF V",
+        "location": "-0.3079474,48.2300116",
+        "type": "link",
+        "info": "145.300 MHz CTCSS 103.5Hz",
+        "lat": 48.2300116,
+        "lon": -0.3079474
+    },
+    {
+        "name": "(66) F6KBR V",
+        "location": "2.8963731,42.6952685",
+        "type": "link",
+        "info": "145.3625MHz CTCSS 250.3Hz",
+        "sysop": "F8BSY",
+        "lat": 42.6952685,
+        "lon": 2.8963731
+    },
+    {
+        "name": "(30) F5UEU V",
+        "location": "4.6202235,44.163929",
+        "type": "link",
+        "info": "144,8375 MHz CTCSS 123Hz",
+        "lat": 44.163929,
+        "lon": 4.6202235
+    },
+    {
+        "name": "(CN) CN8VY R",
+        "location": "-6.8608408,33.9648152",
+        "type": "relais",
+        "info": "430.225 +9.4 MHZ CTCSS 77Hz",
+        "lat": 33.9648152,
+        "lon": -6.8608408
+    },
+    {
+        "name": "(13) F4NNP V",
+        "location": "5.3761389,43.3685638",
+        "type": "divers",
+        "info": "145.3125 MHz CTCSS 71.9 Hz",
+        "lat": 43.3685638,
+        "lon": 5.3761389
+    },
+    {
+        "name": "(57) F4EVC T",
+        "location": "6.1697459,49.0559967",
+        "type": "relais",
+        "info": "145.3375MHz, 29.100MHZ Tone 71,9Hz",
+        "lat": 49.0559967,
+        "lon": 6.1697459
+    },
+    {
+        "name": "(60) F1ZKE V",
+        "location": "2.4779257,49.2583544",
+        "type": "link",
+        "info": "145.3375 MHz CTCSS 123Hz",
+        "sysop": "F4FSD",
+        "lat": 49.2583544,
+        "lon": 2.4779257
+    },
+    {
+        "name": "(50) F4BNF V",
+        "location": "-1.2844186,49.0257676",
+        "type": "link",
+        "info": "144.550 MHz CTCSS 88.5Hz",
+        "lat": 49.0257676,
+        "lon": -1.2844186
+    },
+    {
+        "name": "(39) F1ZKS R",
+        "location": "5.7087406,46.4323849",
+        "type": "relais",
+        "info": "145.700 MHz -0.6MHz CTCSS 71.9Hz",
+        "sysop": "F0DEI",
+        "lat": 46.4323849,
+        "lon": 5.7087406
+    },
+    {
+        "name": "(57) F0EOC V",
+        "location": "6.8097611,49.1453797",
+        "type": "link",
+        "info": "144.650 MHz CTCSS 71.9Hz",
+        "lat": 49.1453797,
+        "lon": 6.8097611
+    },
+    {
+        "name": "(QC) VA2RXY U",
+        "location": "-69.0482257,47.4377517",
+        "type": "link",
+        "info": "446.125 MHz Ctcss 123Hz",
+        "lat": 47.4377517,
+        "lon": -69.0482257
+    },
+    {
+        "name": "(02) F1BSR V",
+        "location": "3.2639752,49.8141795",
+        "type": "link",
+        "info": "145.250MHz CTCSS 123 Hz",
+        "lat": 49.8141795,
+        "lon": 3.2639752
+    },
+    {
+        "name": "(79) F1ZOT V",
+        "location": "-0.3537231,46.6530345",
+        "type": "link",
+        "info": "144.975 MHZ CTCSS 103.5Hz",
+        "sysop": "F4GGU",
+        "lat": 46.6530345,
+        "lon": -0.3537231
+    },
+    {
+        "name": "(13) F5MAG V",
+        "location": "5.5397562,43.398214",
+        "type": "link",
+        "info": "145.2625 MHz CTCSS 71.9 Hz",
+        "lat": 43.398214,
+        "lon": 5.5397562
+    },
+    {
+        "name": "(988) FK5ZBY T",
+        "location": "166.4416857,-22.2690587",
+        "type": "link",
+        "info": "145.300 MHz / 430.300MHZ CTCSS 250.3Hz",
+        "lat": -22.2690587,
+        "lon": 166.4416857
+    },
+    {
+        "name": "(60) F1ZKH V",
+        "location": "2.8103392,49.4202049",
+        "type": "link",
+        "info": "145.3125 MHz CTCSS 123Hz",
+        "sysop": "F1PRY",
+        "lat": 49.4202049,
+        "lon": 2.8103392
+    },
+    {
+        "name": "(59) F6ION V",
+        "location": "2.9998135,50.7142448",
+        "type": "link",
+        "info": "144.8375 MHZ CTCSS 123 HZ",
+        "lat": 50.7142448,
+        "lon": 2.9998135
+    },
+    {
+        "name": "(11) F1ZPH V",
+        "location": "2.3504168,43.2149097",
+        "type": "link",
+        "info": "145.550 MHZ CTCSS 250.3HZ",
+        "sysop": "F4HSQ",
+        "lat": 43.2149097,
+        "lon": 2.3504168
+    },
+    {
+        "name": "(62) F6KCE V",
+        "location": "2.8460574,50.1168638",
+        "type": "link",
+        "info": "144.525 MHz CTCSS 123 Hz",
+        "sysop": "F6IPV",
+        "lat": 50.1168638,
+        "lon": 2.8460574
+    },
+    {
+        "name": "(62) F5MTB V",
+        "location": "2.7200533,50.2480556",
+        "type": "link",
+        "info": "144.6125 MHz CTCSS 123Hz",
+        "lat": 50.2480556,
+        "lon": 2.7200533
+    },
+    {
+        "name": "(78) F4BOH V",
+        "location": "2.092265,49.0058693",
+        "type": "link",
+        "info": "145.2875 MHZ CTCSS 192.8 Hz",
+        "lat": 49.0058693,
+        "lon": 2.092265
+    },
+    {
+        "name": "(91) F4GLU V",
+        "location": "2.3416914,48.6627786",
+        "type": "link",
+        "info": "145.3375 MHz CTCSS 192.8 Hz",
+        "lat": 48.6627786,
+        "lon": 2.3416914
+    },
+    {
+        "name": "(42) F1ZID V",
+        "location": "4.6504661,45.3433192",
+        "type": "link",
+        "info": "145.4375 MHZ CTCSS 123 Hz",
+        "sysop": "F4ASS",
+        "lat": 45.3433192,
+        "lon": 4.6504661
+    },
+    {
+        "name": "(31) F1ZLS V",
+        "location": "1.2224839,43.4315499",
+        "type": "link",
+        "info": "144.925 MHZ CTCSS 71.9HZ",
+        "sysop": "F4GRL",
+        "lat": 43.4315499,
+        "lon": 1.2224839
+    },
+    {
+        "name": "(15) F5KHC T",
+        "location": "2.554493,44.9036115",
+        "type": "relais",
+        "info": "145.225 MHz & 430.175 MHz CTCSS 123Hz",
+        "sysop": "F6IOJ",
+        "lat": 44.9036115,
+        "lon": 2.554493
+    },
+    {
+        "name": "(59) F1ZDN T",
+        "location": "3.8147331,50.2024372",
+        "type": "relais",
+        "info": "145.2625 MHz -0.6 MHz , 433.050 MHz -1.6 MHz CTCSS 123 Hz",
+        "sysop": "F1IWQ",
+        "lat": 50.2024372,
+        "lon": 3.8147331
+    },
+    {
+        "name": "(BZ) PU2ZSP U",
+        "location": "-46.6083433,-23.558016",
+        "type": "link",
+        "info": "430... MHz CTCSS 77Hz",
+        "lat": -23.558016,
+        "lon": -46.6083433
+    },
+    {
+        "name": "(49) F5GBS V",
+        "location": "-0.8962237,47.07037",
+        "type": "link",
+        "info": "145.350 MHz CTCSS 103.5Hz",
+        "lat": 47.07037,
+        "lon": -0.8962237
+    },
+    {
+        "name": "(18) F1FHL V",
+        "location": "2.4492808,47.4837701",
+        "type": "link",
+        "info": "145.4125 MHz CTCSS 71.9Hz",
+        "lat": 47.4837701,
+        "lon": 2.4492808
+    },
+    {
+        "name": "(38) F1GFB V",
+        "location": "5.6590583,44.9461889",
+        "type": "link",
+        "info": "145.3375 MHz Ctcss 123Hz",
+        "lat": 44.9461889,
+        "lon": 5.6590583
+    },
+    {
+        "name": "(974) FR4NP U",
+        "location": "55.3026939,-20.9383678",
+        "type": "link",
+        "info": "435.100 MHz CTCSS 97.4Hz",
+        "lat": -20.9383678,
+        "lon": 55.3026939
+    },
+    {
+        "name": "(35) F5ZZC U",
+        "location": "-1.7449704,48.0496976",
+        "type": "link",
+        "info": "432.975 MHz CTCSS 71.9Hz",
+        "sysop": "F5NLG",
+        "lat": 48.0496976,
+        "lon": -1.7449704
+    },
+    {
+        "name": "(71) F5ZJW T",
+        "location": "5.4169548,46.499381",
+        "type": "relais",
+        "info": "144.500 MHz / 432.600 MHz  CTCSS 203.5 Hz",
+        "sysop": "F6IKY",
+        "lat": 46.499381,
+        "lon": 5.4169548
+    },
+    {
+        "name": "(37) F6KCI T",
+        "location": "0.6861591,47.432888",
+        "type": "link",
+        "info": "434.975 MHz ,144.5375 MHz  CTCSS 123Hz",
+        "sysop": "F6GUZ",
+        "lat": 47.432888,
+        "lon": 0.6861591
+    },
+    {
+        "name": "(61) F4CHA V",
+        "location": "0.582982,48.7583581",
+        "type": "link",
+        "info": "145.2625 MHz CTCSS 88.5 Hz",
+        "lat": 48.7583581,
+        "lon": 0.582982
+    },
+    {
+        "name": "(12) F5BLC U",
+        "location": "2.0351047,44.3530017",
+        "type": "link",
+        "info": "431.500 MHz CTCSS 71.9Hz",
+        "lat": 44.3530017,
+        "lon": 2.0351047
+    },
+    {
+        "name": "(87) F1ZHA U",
+        "location": "1.2612589,45.8331334",
+        "type": "link",
+        "info": "431.875MHz CTCSS 250.3 Hz",
+        "sysop": "F1IGY",
+        "lat": 45.8331334,
+        "lon": 1.2612589
+    },
+    {
+        "name": "(92) F1ZQC V",
+        "location": "2.2807904,48.9139552",
+        "type": "link",
+        "info": "gotechnique.com 145.250 MHz CTCSS 192.8 Hz",
+        "lat": 48.9139552,
+        "lon": 2.2807904
+    },
+    {
+        "name": "(11) F1ZCZ U",
+        "location": "3.1548218,43.1582804",
+        "type": "link",
+        "info": "432.675 MHz CTCSS 250.3 Hz en lien UHF avec F5ZXP",
+        "sysop": "F1QM",
+        "lat": 43.1582804,
+        "lon": 3.1548218
+    },
+    {
+        "name": "(30) F4IAH V",
+        "location": "4.7661497,44.0135852",
+        "type": "link",
+        "info": "144.6375 MHz CTCSS 179.9 Hz",
+        "lat": 44.0135852,
+        "lon": 4.7661497
+    },
+    {
+        "name": "(07) F1ZEU U",
+        "location": "4.7983522,44.9782373",
+        "type": "link",
+        "info": "430.800 MHz CTCSS 123Hz",
+        "sysop": "F6FLQ",
+        "lat": 44.9782373,
+        "lon": 4.7983522
+    },
+    {
+        "name": "(59) F1ZKY R",
+        "location": "2.3763991,51.0001097",
+        "type": "relais",
+        "info": "145.6125 MHz -0.6Khz ctcss 123Hz",
+        "sysop": "F4BMK",
+        "lat": 51.0001097,
+        "lon": 2.3763991
+    },
+    {
+        "name": "(QC) VE2DBE U",
+        "location": "-73.2672024,45.2778525",
+        "type": "allstar",
+        "info": "434.600 MHz DCS 26 + passerelle ALLSTAR #40020",
+        "lat": 45.2778525,
+        "lon": -73.2672024
+    },
+    {
+        "name": "(11) F5ZXP T",
+        "location": "3.1238182,43.1747948",
+        "type": "relais",
+        "info": "145.325 MHz - 432.675 MHz CTCSS 250.3 Hz en lien UHF avec F1ZCZ",
+        "lat": 43.1747948,
+        "lon": 3.1238182
+    },
+    {
+        "name": "(51) F5TPK V",
+        "location": "4.0537389,49.2242659",
+        "type": "link",
+        "info": "145.300 MHz Ctcss 71.9Hz",
+        "lat": 49.2242659,
+        "lon": 4.0537389
+    },
+    {
+        "name": "(28) F5LPE V",
+        "location": "1.3699677,48.0744892",
+        "type": "link",
+        "info": "144.5875 MHz CTCSS 131.8 Hz",
+        "lat": 48.0744892,
+        "lon": 1.3699677
+    },
+    {
+        "name": "(87) F5ZJC V",
+        "location": "0.9212075,45.8977723",
+        "type": "link",
+        "info": "145.2875 MHz CTCSS 88.5Hz",
+        "sysop": "F1IGY",
+        "lat": 45.8977723,
+        "lon": 0.9212075
+    },
+    {
+        "name": "(25) F1DLW V",
+        "location": "6.0270313,47.238775",
+        "type": "projet",
+        "info": "144.550 MHz CTCSS 71.9 Hz",
+        "lat": 47.238775,
+        "lon": 6.0270313
+    },
+    {
+        "name": "(68) F1HIU U",
+        "location": "6.9091397,47.8080794",
+        "type": "link",
+        "info": "434.975 MHz CTCSS 67Hz",
+        "lat": 47.8080794,
+        "lon": 6.9091397
+    },
+    {
+        "name": "(75) F1ZPX V",
+        "location": "2.2789672,48.8458827",
+        "type": "link",
+        "info": "145.3875 MHz CTCSS 192.8Hz",
+        "sysop": "F4HWN",
+        "lat": 48.8458827,
+        "lon": 2.2789672
+    },
+    {
+        "name": "(42) F1ZEV 6M",
+        "location": "4.4394938,45.3820449",
+        "type": "relais",
+        "info": "51.950 MHz -0.6 CTCSS 123 Hz",
+        "sysop": "F4ASS",
+        "lat": 45.3820449,
+        "lon": 4.4394938
+    },
+    {
+        "name": "(34) F5IDZ V",
+        "location": "3.4346915,43.6304442",
+        "type": "link",
+        "info": "145.350 MHz CTCSS 71.9 Hz",
+        "lat": 43.6304442,
+        "lon": 3.4346915
+    },
+    {
+        "name": "(54) F5ZUD R",
+        "location": "6.146048,48.6496809",
+        "type": "relais",
+        "info": "145.712.5 Mhz  -600 CTCSS 250.3Hz",
+        "sysop": "F4BIT",
+        "lat": 48.6496809,
+        "lon": 6.146048
+    },
+    {
+        "name": "(28) F1OOG V",
+        "location": "1.3546726,48.4190007",
+        "type": "link",
+        "info": "145.2875 MHz CTCSS 131.8 Hz",
+        "lat": 48.4190007,
+        "lon": 1.3546726
+    },
+    {
+        "name": "(58) F4HLJ V",
+        "location": "3.1367672,47.0006555",
+        "type": "link",
+        "info": "145.3125 MHz CTCSS 77Hz",
+        "lat": 47.0006555,
+        "lon": 3.1367672
+    },
+    {
+        "name": "(46) F1ZNH U",
+        "location": "2.0052357,44.6058894",
+        "type": "link",
+        "info": "439.7125 MHz Ctcss 225.7Hz",
+        "sysop": "F4EYL",
+        "lat": 44.6058894,
+        "lon": 2.0052357
+    },
+    {
+        "name": "(10) F1ZCU U",
+        "location": "3.9575236,48.3092465",
+        "type": "relais",
+        "info": "433.075 -1.6MHz Ctcss 123Hz",
+        "sysop": "F1GZH",
+        "lat": 48.3092465,
+        "lon": 3.9575236
+    },
+    {
+        "name": "(86) F1GXW V",
+        "location": "0.602824,46.9735982",
+        "type": "link",
+        "info": "145.375MHz CTCSS 123",
+        "lat": 46.9735982,
+        "lon": 0.602824
+    },
+    {
+        "name": "(22) F5NLG U",
+        "location": "-3.3977997,48.5434084",
+        "type": "hotspot",
+        "info": "434.975MHz CTCSS 71.9Hz",
+        "lat": 48.5434084,
+        "lon": -3.3977997
+    },
+    {
+        "name": "(78) F5ZPX T",
+        "location": "1.9462094,48.7624965",
+        "type": "projet",
+        "info": "145.225 MHz 430.225 +1.6 MHz CTCSS 192.8 Hz",
+        "sysop": "F4AID",
+        "lat": 48.7624965,
+        "lon": 1.9462094
+    },
+    {
+        "name": "(QC) VE2RQF S",
+        "location": "-71.8945312,45.4061637",
+        "type": "divers",
+        "info": "927.300 MHz -25MHz CTCSS 103.5 Hz Allstar",
+        "lat": 45.4061637,
+        "lon": -71.8945312
+    },
+    {
+        "name": "(2B) TK4LS V",
+        "location": "9.3226087,42.0109517",
+        "type": "link",
+        "info": "145.400 MHz CTCSS 71.9Hz",
+        "lat": 42.0109517,
+        "lon": 9.3226087
+    },
+    {
+        "name": "(972) FM1LF V",
+        "location": "-61.0372237,14.6737791",
+        "type": "link",
+        "info": "144.8625 MHz Ctcss 97.4Hz",
+        "lat": 14.6737791,
+        "lon": -61.0372237
+    },
+    {
+        "name": "(13) F5RIJ V",
+        "location": "5.2554436,43.523536",
+        "type": "link",
+        "info": "144.925 MHz CTCSS 71.9Hz ",
+        "lat": 43.523536,
+        "lon": 5.2554436
+    },
+    {
+        "name": "(971) FG5ZBX U",
+        "location": "-61.3123285,16.2522017",
+        "type": "link",
+        "info": "430.200 MHz +9.4 CTCSS 123 Hz FG8OJ",
+        "lat": 16.2522017,
+        "lon": -61.3123285
+    },
+    {
+        "name": "(2B) TK1CX V",
+        "location": "9.1956634,42.3781031",
+        "type": "link",
+        "info": "144.900 MHz CTCSS 141.3 Hz",
+        "lat": 42.3781031,
+        "lon": 9.1956634
+    },
+    {
+        "name": "(2A) TK0NL V",
+        "location": "8.738312,41.9221631",
+        "type": "link",
+        "info": "145.300 MHz CTCSS 141.3Hz",
+        "lat": 41.9221631,
+        "lon": 8.738312
+    },
+    {
+        "name": "(12) F5ZGF R",
+        "location": "2.7546825,44.3161",
+        "type": "link",
+        "info": "430.300 MHZ + 1.6MHz CTCSS 71.9Hz",
+        "sysop": "F4BRT",
+        "lat": 44.3161,
+        "lon": 2.7546825
+    },
+    {
+        "name": "(971) FG5GP V",
+        "location": "-61.6016877,16.2358078",
+        "type": "link",
+        "info": "145.425 MHz CTCSS 123Hz",
+        "lat": 16.2358078,
+        "lon": -61.6016877
+    },
+    {
+        "name": "(60) F5KMB V",
+        "location": "2.4364787,49.5069688",
+        "type": "link",
+        "info": "145.325 MHz CTCSS 123Hz",
+        "sysop": "F4FSD",
+        "lat": 49.5069688,
+        "lon": 2.4364787
+    },
+    {
+        "name": "(68) F1ZDG R",
+        "location": "7.1259825,47.9809938",
+        "type": "divers",
+        "info": "145.625 MHz -0,600MHz CTCSS ? ",
+        "sysop": "F5UII",
+        "lat": 47.9809938,
+        "lon": 7.1259825
+    },
+    {
+        "name": "(51) F5PEG V",
+        "location": "4.3729776,48.9629183",
+        "type": "link",
+        "info": "145.325 MHz CTCSS 71.9Hz",
+        "lat": 48.9629183,
+        "lon": 4.3729776
+    },
+    {
+        "name": "(29) F4HQE V",
+        "location": "-4.0628053,47.9086723",
+        "type": "hotspot",
+        "info": "145.350 MHz CTCSS 71.9 Hz",
+        "lat": 47.9086723,
+        "lon": -4.0628053
+    },
+    {
+        "name": "(974) FR5ZAE T",
+        "location": "55.2288012,-21.0538225",
+        "type": "link",
+        "info": "145.350 MHz 431.025 MHz CTCSS 97.4Hz ",
+        "lat": -21.0538225,
+        "lon": 55.2288012
+    },
+    {
+        "name": "(34) F4KJG V",
+        "location": "3.863729,43.6194121",
+        "type": "link",
+        "info": "145.xxx MHz CTCSS xx Hz",
+        "sysop": "F5PRO",
+        "lat": 43.6194121,
+        "lon": 3.863729
+    },
+    {
+        "name": "(VK2) VK2ICW V",
+        "location": "150.7762406,-33.7806656",
+        "type": "link",
+        "info": "?",
+        "lat": -33.7806656,
+        "lon": 150.7762406
+    },
+    {
+        "name": "(16) F1UGC V",
+        "location": "-0.1110273,45.5131062",
+        "type": "link",
+        "info": "145.3625 MHz CTCSS 179.9 Hz",
+        "lat": 45.5131062,
+        "lon": -0.1110273
+    },
+    {
+        "name": "(02) F4KKD V",
+        "location": "3.6302285,49.8934668",
+        "type": "link",
+        "info": "145.xxx MHZ CTCSS 123Hz",
+        "sysop": "F1BSR",
+        "lat": 49.8934668,
+        "lon": 3.6302285
+    },
+    {
+        "name": "(30) F4CDH V",
+        "location": "4.7590414,43.9569678",
+        "type": "link",
+        "info": "144.6125 MHz CTCSS 179.9Hz",
+        "lat": 43.9569678,
+        "lon": 4.7590414
+    },
+    {
+        "name": "(94) F4EKS V",
+        "location": "2.4597942,48.7863301",
+        "type": "link",
+        "info": "145.200 MHz CTCSS 192.8 Hz",
+        "lat": 48.7863301,
+        "lon": 2.4597942
+    },
+    {
+        "name": "(34) F1RXP U",
+        "location": "2.915283,43.555088",
+        "type": "hotspot",
+        "info": "432.975 MHz Ctcss 71.9Hz",
+        "lat": 43.555088,
+        "lon": 2.915283
+    },
+    {
+        "name": "(33) F8DWH U",
+        "location": "-0.3052741,44.6361265",
+        "type": "hotspot",
+        "info": "432.975 MHz Ctcss 71.9Hz",
+        "lat": 44.6361265,
+        "lon": -0.3052741
+    },
+    {
+        "name": "(92) F5NKP V",
+        "location": "2.2579886,48.8249425",
+        "type": "hotspot",
+        "info": "145.350 MHz CTCSS 192.8Hz",
+        "lat": 48.8249425,
+        "lon": 2.2579886
+    },
+    {
+        "name": "(77) F0FWW V",
+        "location": "2.5900254,48.6244599",
+        "type": "hotspot",
+        "info": "pas d'infos",
+        "lat": 48.6244599,
+        "lon": 2.5900254
+    },
+    {
+        "name": "(19) F4IFA V",
+        "location": "1.8479281,45.3046034",
+        "type": "link",
+        "info": "en attente d'infos",
+        "lat": 45.3046034,
+        "lon": 1.8479281
+    },
+    {
+        "name": "(29) F6DLE U",
+        "location": "-3.5548278,48.2787383",
+        "type": "hotspot",
+        "info": "432.975 MHz CTCSS 71.9Hz",
+        "lat": 48.2787383,
+        "lon": -3.5548278
+    },
+    {
+        "name": "(22) F1NWT U",
+        "location": "-3.0298268,48.8016356",
+        "type": "hotspot",
+        "info": "432.975 MHz ctcss 71.9Hz",
+        "lat": 48.8016356,
+        "lon": -3.0298268
+    },
+    {
+        "name": "(58) F4AUV U",
+        "location": "2.9253805,47.3862279",
+        "type": "hotspot",
+        "info": "432.975 MHz CTCSS 71.9Hz",
+        "lat": 47.3862279,
+        "lon": 2.9253805
+    },
+    {
+        "name": "(83) F8HJV U",
+        "location": "6.4362383,43.0181605",
+        "type": "hotspot",
+        "info": "432.975MHz CTCSS 71.9Hz ",
+        "lat": 43.0181605,
+        "lon": 6.4362383
+    },
+    {
+        "name": "(26) F6KUU V",
+        "location": "4.9569395,44.9718434",
+        "type": "hotspot",
+        "info": "pas d'infos",
+        "lat": 44.9718434,
+        "lon": 4.9569395
+    },
+    {
+        "name": "(76) F6CYK U",
+        "location": "0.2056478,49.7068404",
+        "type": "hotspot",
+        "info": "432.975MHz CTCSS 71.9Hz",
+        "lat": 49.7068404,
+        "lon": 0.2056478
+    },
+    {
+        "name": "(72) F1PPH U",
+        "location": "0.2434661,47.9072907",
+        "type": "hotspot",
+        "info": "pas d'infos",
+        "lat": 47.9072907,
+        "lon": 0.2434661
+    },
+    {
+        "name": "(09) F1IZL U",
+        "location": "1.6530892,43.1034413",
+        "type": "hotspot",
+        "info": "pas d'infos",
+        "lat": 43.1034413,
+        "lon": 1.6530892
+    },
+    {
+        "name": "(56) F4HWD U",
+        "location": "-3.372116,47.7490128",
+        "type": "hotspot",
+        "info": "432.975MHz CTCSS 71.9 Hz",
+        "lat": 47.7490128,
+        "lon": -3.372116
+    },
+    {
+        "name": "(56) F0EHQ V",
+        "location": "-3.3689318,47.7523774",
+        "type": "hotspot",
+        "info": "144.975 MHz Ctcss 71.9Hz",
+        "lat": 47.7523774,
+        "lon": -3.3689318
+    },
+    {
+        "name": "(60) F1NQP U",
+        "location": "2.5487928,49.4713695",
+        "type": "hotspot",
+        "info": "432.975MHz ctcss 71.9Hz ",
+        "lat": 49.4713695,
+        "lon": 2.5487928
+    },
+    {
+        "name": "(60) F5HCC U",
+        "location": "1.9759026,49.2062759",
+        "type": "hotspot",
+        "info": "432.975MHZ ctcss 71.9Hz",
+        "lat": 49.2062759,
+        "lon": 1.9759026
+    },
+    {
+        "name": "(35) F1DKN U",
+        "location": "-1.7322768,48.1766785",
+        "type": "hotspot",
+        "info": "432.900 MHz ctcss 71.9Hz",
+        "lat": 48.1766785,
+        "lon": -1.7322768
+    },
+    {
+        "name": "(78) F4AID U",
+        "location": "1.9262214,48.7650309",
+        "type": "hotspot",
+        "info": "432.975MHz ctcss 71.9Hz",
+        "lat": 48.7650309,
+        "lon": 1.9262214
+    },
+    {
+        "name": "(71) F6IKY V",
+        "location": "5.2436227,46.6334818",
+        "type": "link",
+        "info": "145.500 MHz Ctcss 203.5 Hz",
+        "lat": 46.6334818,
+        "lon": 5.2436227
+    },
+    {
+        "name": "(63) F1ZBT U",
+        "location": "3.1271739,45.685295",
+        "type": "link",
+        "info": "432.775 MHz -1.6MHz  Ctcss ?",
+        "lat": 45.685295,
+        "lon": 3.1271739
+    },
+    {
+        "name": "(61) F0GND V",
+        "location": "-0.1231075,48.7175143",
+        "type": "link",
+        "info": "145.2125 MHz Ctcss 88.5 Hz",
+        "lat": 48.7175143,
+        "lon": -0.1231075
+    },
+    {
+        "name": "(53) F1EVM V",
+        "location": "-0.8864594,48.0978018",
+        "type": "link",
+        "info": "145.3625MHz CTCSS 103.5Hz",
+        "lat": 48.0978018,
+        "lon": -0.8864594
+    },
+    {
+        "name": "(22) F5ZIN 10/4M",
+        "location": "-3.4458814,48.5585859",
+        "type": "link",
+        "info": "29.130 MHz Ctcss 71.9Hz (70.4625 MHz RX) F5NLG",
+        "lat": 48.5585859,
+        "lon": -3.4458814
+    },
+    {
+        "name": "HB9VSD-R",
+        "location": "7.2285491,46.0960747",
+        "type": "relais",
+        "info": "438.5625MHz  -7.600 MHz , 67Hz",
+        "lat": 46.0960747,
+        "lon": 7.2285491
+    },
+    {
+        "name": "(85) F5EAN V",
+        "location": "-1.6704954,46.4442359",
+        "type": "link",
+        "info": "145.3875 MHz CTCSS 103.5Hz",
+        "lat": 46.4442359,
+        "lon": -1.6704954
+    },
+    {
+        "name": "(84) F5LLJ U",
+        "location": "4.9947282,43.9273499",
+        "type": "hotspot",
+        "info": "432.975 MHz ctcss 71.9Hz",
+        "lat": 43.9273499,
+        "lon": 4.9947282
+    },
+    {
+        "name": "(39) F6ECN U",
+        "location": "5.4524835,46.7466496",
+        "type": "hotspot",
+        "info": "439.500 MHz - CTCSS 71.9",
+        "lat": 46.7466496,
+        "lon": 5.4524835
+    },
+    {
+        "name": "(28) F1DSO V",
+        "location": "1.4669524,48.439575",
+        "type": "hotspot",
+        "info": "144.925 MHz - CTCSS 127.3",
+        "lat": 48.439575,
+        "lon": 1.4669524
+    },
+    {
+        "name": "(53) F0EAZ V",
+        "location": "-0.9388672,48.2968738",
+        "type": "hotspot",
+        "info": "145.2375 MHz - CTCSS 103.5 Hz",
+        "lat": 48.2968738,
+        "lon": -0.9388672
+    },
+    {
+        "name": "(28) F0GEX V",
+        "location": "1.3576149,48.466226",
+        "type": "hotspot",
+        "info": "145.2875 MHz - CTCSS 127.3 Hz",
+        "lat": 48.466226,
+        "lon": 1.3576149
+    },
+    {
+        "name": "(26) F1NUU U",
+        "location": "4.7682973,44.348592",
+        "type": "hotspot",
+        "info": "434.975 MHz - CTCSS 123 Hz",
+        "lat": 44.348592,
+        "lon": 4.7682973
+    },
+    {
+        "name": "(26) F6ELZ V",
+        "location": "4.8951651,44.8363309",
+        "type": "hotspot",
+        "info": "144.975 MHz Ctcss 71.9Hz",
+        "lat": 44.8363309,
+        "lon": 4.8951651
+    },
+    {
+        "name": "(12) F5GJG U",
+        "location": "3.0791797,44.0994098",
+        "type": "hotspot",
+        "info": "432.975MHz Ctcss 71.9Hz",
+        "lat": 44.0994098,
+        "lon": 3.0791797
+    },
+    {
+        "name": "(13) F5OZK V",
+        "location": "5.4012556,43.3424243",
+        "type": "hotspot",
+        "info": "pas d'infos",
+        "lat": 43.3424243,
+        "lon": 5.4012556
+    },
+    {
+        "name": "(92) F4ICM U",
+        "location": "2.3107766,48.8129364",
+        "type": "hotspot",
+        "info": "432.975MHz CTCSS 71.9Hz",
+        "lat": 48.8129364,
+        "lon": 2.3107766
+    },
+    {
+        "name": "SATELLITE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Satellite http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "LOCAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Local http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "BAVARDAGE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Bavardage http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "INTERNATIONAL",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon International http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "TECHNIQUE",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Serveur Salon Technique http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF3",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 3 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF2",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "RRF Serveur 2 http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    },
+    {
+        "name": "RRF",
+        "location": "-3.2951033,49.2744719,0",
+        "type": "serveur",
+        "info": "Tête de réseau http://rrf.f5nlg.ovh",
+        "lat": "49.2744719",
+        "lon": "-3.2951033"
+    }
+]

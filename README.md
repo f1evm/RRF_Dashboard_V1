@@ -1,10 +1,16 @@
-##dashboardRRF
+##dashboardRRF1
 
 **1) lancement**
-    cd /opt/dashboardRRF
-    ./dashboardRRF.sh start
+    cd /opt/dashboardRRF1
+    ./dashboardRRF1.sh start
 
 **2) arrêt**
-    cd /opt/dashboardRRF
-    ./dashboardRRF.sh stop
+    cd /opt/dashboardRRF1
+    ./dashboardRRF1.sh stop
+
+
+**Fichier log**
+cat /tmp/dashboarfRRF1.log
+
+
 

@@ -8,6 +8,7 @@ const express = require('express');
 var { fsms, sses } = require('./src/lib/sse');
 const salons = require('./src/lib/salons');
 var proxy = require('http-proxy-middleware');
+const liste = require('./Noeuds.json');
 
 const SALONS = require('./config').SALONS;
 const CARTO = require('./config').CARTO;
@@ -60,6 +61,10 @@ server.get('/salons', (req, res) => {
 
 server.get('/carto', (req, res) => {
   res.json({ data: CARTO } )
+})
+
+server.get('/liste', (req, res) => {
+  res.json( liste)
 })
 
 // console.log that your server is up and running

@@ -1,64 +1,87 @@
 /* Configuration du TABLEAU DE BORD RRF */
 
 /* Port du serveur */
-const PORT = 443;
+const PORT = 8008;
 
 /* Liste et paramètres des salons */
 
   const SALONS = [
-    {name: "RRF", 
-        file: "",
-        url: "http://rrf.f5nlg.ovh", 
-        api:"/api/svxlink/RRF", 
-        stream:"/realtime/RRF", 
-        audioUrl:"http://rrf2.f5nlg.ovh:8000",
-        audioStream:"/stream"
+    {name: "RRF",
+        dtmf: "96#",
+	    file: "",
+	    url: "http://rrf.f5nlg.ovh",
+	    api: "/api/svxlink/RRF",
+	    stream: "/realtime/RRF",
+	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	    audioStream: "/stream"
     },
-    {name: "technique", 
-        file: "",
-        url:"http://rrf.f5nlg.ovh", 
-        api: "/api/svxlink/technique", 
-        stream:"/realtime/technique", 
-        audioUrl:"http://rrf2.f5nlg.ovh:8000",
-        audioStream:"/technique"
+    {name: "technique",
+        dtmf: "98#",
+	    file: "",
+	    url: "http://rrf3.f5nlg.ovh",
+	    api: "/api/svxlink/technique",
+	    stream: "/realtime/technique",
+	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	    audioStream: "/technique"
+    },
+    {name: "international",
+        dtmf: "99#",
+	    file: "",
+	    url: "http://rrf3.f5nlg.ovh",
+	    api: "/api/svxlink/international",
+	    stream: "/realtime/international",
+	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	    audioStream: "/international"
     },
     {name: "bavardage",
+        dtmf:"100#",
 	    file: "",
-	    url: "http://fon.f1tzo.com:8080",
+	    url: "http://serveur.f1tzo.com:8080",
 	    api: "/api/svxlink/bavardage",
 	    stream: "/realtime/bavardage",
 	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
 	    audioStream: "/bavardage"
-    }, 
+    },
     {name: "local",
+        dtmf: "101#",
 	    file: "",
-	    url: "http://fon.f1tzo.com:8080",
+	    url: "http://serveur.f1tzo.com:8080",
 	    api: "/api/svxlink/local",
 	    stream: "/realtime/local",
 	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
 	    audioStream: "/local"
     },
-    {name: "satellite", 
-        file: "",
-	    url:"http://rrf2.f5nlg.ovh:8080", 
-        api: "/api/svxlink/satellite", 
-        stream:"/realtime/satellite", 
-        audioUrl:"http://rrf2.f5nlg.ovh:8000",
-        audioStream:"/satellite"
+    {name: "satellite",
+        dtmf: "102#",
+	    file: "",
+	    url: "http://rrf3.f5nlg.ovh",
+	    api: "/api/svxlink/satellite",
+	    stream: "/realtime/satellite",
+	    audioUrl: "http://rrf2.f5nlg.ovh:8000",
+	    audioStream: "/satellite"
     },
     {name: "FON",
+        dtmf: "97#",
 	    file: "",
-	    url: "http://localhost:8008",
-	    api: "api/svxlink/FON",
+	    url: "http://serveur.f1tzo.com:8080",
+	    api: "/api/svxlink/FON",
 	    stream: "/realtime/FON",
-	    audioUrl: "http://f1tzo.com:8000",
+	    audioUrl: "http://serveur.f1tzo.com:8000",
 	    audioStream: "/stream"
     }
+
+
   ];
   
 /* Liste et paramètres des cartes utilisées dans la vue "Carte" */
 
 const CARTO = [
+    
+    {name: "osm.Mapnik",
+        url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        accessKey: "",
+        attribution: '&copy; F1EVM - &copy; <a href="http://osm.org/copyright"  target="_blank">OpenStreetMap</a> contributors'
+    },
     {name: "jawg-streets",
         url: "https://tile.jawg.io/jawg-streets/{z}/{x}/{y}.png?access-token=2WFyabqzwhtc4oCYGid2R8ftFUKJy0evKTXaJ7n0xa7182LmkLehTy1atz2TKjju",
         accessKey: "",
@@ -66,11 +89,6 @@ const CARTO = [
     },
     {name: "osm.ArcGIS",
         url: "https://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}",
-        accessKey: "",
-        attribution: '&copy; F1EVM - &copy; <a href="http://osm.org/copyright"  target="_blank">OpenStreetMap</a> contributors'
-    },
-    {name: "osm.Mapnik",
-        url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         accessKey: "",
         attribution: '&copy; F1EVM - &copy; <a href="http://osm.org/copyright"  target="_blank">OpenStreetMap</a> contributors'
     },

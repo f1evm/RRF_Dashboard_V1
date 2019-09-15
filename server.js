@@ -59,6 +59,14 @@ server.get('/salons', (req, res) => {
   res.json({ data: slns } )
 })
 
+server.get('/salons&dtmf', (req, res) => {
+  var slns= [];
+  SALONS.forEach( sl => {
+    slns.push({name:sl.name, dtmf:sl.dtmf})
+  })
+  res.json({ data: slns } )
+})
+
 server.get('/carto', (req, res) => {
   res.json({ data: CARTO } )
 })

@@ -1,16 +1,7 @@
-##dashboardRRF1
+##Dashboard RRF V1
 
-**1) lancement**
-    cd /opt/dashboardRRF1
-    ./dashboardRRF1.sh start
+Ce repository est destiné avant tout à garder en lieu sûr la première version du Tableau de Bord RRF, avant évolution et améliorations diverses.
 
-**2) arrêt**
-    cd /opt/dashboardRRF1
-    ./dashboardRRF1.sh stop
-
-
-**Fichier log**
-cat /tmp/dashboarfRRF1.log
-
+Il est visible en utilisation : http://rrf.f5nlg.ovh
 
 

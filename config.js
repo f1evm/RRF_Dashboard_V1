@@ -7,7 +7,7 @@ const PORT = 8008;
 
   const SALONS = [
     {name: "RRF",
-        dtmf: "96#",
+        dtmf: "96",
 	    file: "",
 	    url: "http://rrf.f5nlg.ovh",
 	    api: "/api/svxlink/RRF",
@@ -16,7 +16,7 @@ const PORT = 8008;
 	    audioStream: "/stream"
     },
     {name: "technique",
-        dtmf: "98#",
+        dtmf: "98",
 	    file: "",
 	    url: "http://rrf3.f5nlg.ovh",
 	    api: "/api/svxlink/technique",
@@ -25,7 +25,7 @@ const PORT = 8008;
 	    audioStream: "/technique"
     },
     {name: "international",
-        dtmf: "99#",
+        dtmf: "99",
 	    file: "",
 	    url: "http://rrf3.f5nlg.ovh",
 	    api: "/api/svxlink/international",
@@ -34,7 +34,7 @@ const PORT = 8008;
 	    audioStream: "/international"
     },
     {name: "bavardage",
-        dtmf:"100#",
+        dtmf:"100",
 	    file: "",
 	    url: "http://serveur.f1tzo.com:8080",
 	    api: "/api/svxlink/bavardage",
@@ -43,7 +43,7 @@ const PORT = 8008;
 	    audioStream: "/bavardage"
     },
     {name: "local",
-        dtmf: "101#",
+        dtmf: "101",
 	    file: "",
 	    url: "http://serveur.f1tzo.com:8080",
 	    api: "/api/svxlink/local",
@@ -52,7 +52,7 @@ const PORT = 8008;
 	    audioStream: "/local"
     },
     {name: "satellite",
-        dtmf: "102#",
+        dtmf: "102",
 	    file: "",
 	    url: "http://rrf3.f5nlg.ovh",
 	    api: "/api/svxlink/satellite",
@@ -61,7 +61,7 @@ const PORT = 8008;
 	    audioStream: "/satellite"
     },
     {name: "FON",
-        dtmf: "97#",
+        dtmf: "97",
 	    file: "",
 	    url: "http://serveur.f1tzo.com:8080",
 	    api: "/api/svxlink/FON",

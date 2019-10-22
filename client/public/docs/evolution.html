@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="/docs/docs.css" />
+    
+    
+   <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    
+    <title>Evolution du RRF</title>
+  </head>
+  <body>
+    
+    <h1>Evolution du RRF</h1>
+    <ul>
+      <li>
+        <a href="/docs/" >Informations RRF</a>
+      </li>
+    </ul>
+    
+    <h2 id="Intro">Introduction</h2>
+
+    Le Réseau des Répéteurs Francophones (RRF) a été construit initialement avec la version 15 de Svxlink de SM0SVX.<br/>
+    Depuis près de deux ans, la nouvelle version 17 avait été développée, mais certaines caractéristiques empêchaient de l'utiliser tel quel.
+    Svxlink a continué à évoluer et en même temps l'OS Armbian utilisé dans les Orange Pi a lui aussi évolué.<br/>
+    Il devenait donc nécessaire de faire évoluer le RRF pour profiter des avancées.
+
+    <h2 id="LeRRF">Le RRF</h2>
+    Jusqu'à il y a peu de temps, le RRF était réparti sur trois serveurs que l'on nommait RRF1, RRF2 et FON, afin de répartir la charge.<br/>
+    <ul style="list-style-type:none;">
+      <li>Le "salon" principal (RRF) était réparti sur les deux serveurs RRF1 et RRF2.</li>
+    <li>Les salons Technique et International étaient sur le RRF1.</li>
+    <li>Les salons Bavardage, Local et FON sur le serveur FON de F1TZO.</li>
+    <li>Le salon Satellite sur le serveur RRF2.</li>
+    <li>Le RRF2 hébergeait également les flux audio de tous les salons.</li>
+    </ul>
+
+    <h2 id="migration">Migration</h2>
+    Les deux versions de Svxlink ne sont pas compatibles. Si vous avez un link sur l'ancienne version vous ne pourrez pas vous connecter sur la nouvelle.<br/>
+    Il convient donc de faire évoluer aussi les logiciels de tous les clients, links, relais ou hotspots.<br/>
+    Pour laisser le temps à chacun d'évoluer, Jean-Philippe F5NLG a mis en service un nouveau reflector a la nouvelle version sur un nouveau serveur RRF3.<br/>
+    Des passerelles ont été mises en place afin de relier les salons des deux versions.<br/>
+    Pendant le même temps, Michel F1TZO est en train d'installer un nouveau serveur virtuel qui accueillera la nouvelle version sur le serveur FON.<br/>
+    <br/>
+    Une version 2.0 pour les logiciels des links Spotnik Orange Pi Zero ou Raspberry Pi, est sur le point d'être finalisée.<br/>
+    Au 20 juillet 2019, une trentaine de points d'accès ont déjà effectué la migration sans difficulté, ce qui permet d'être très confiant pour l'avenir.<br/>
+    Dès que cette version 2.0 sera validée, certainement d'ici fin juillet 2019, le plus possible de links devront migrer vers la nouvelle version.<br/>
+    Le serveur RRF1 sera arrêté pour le passer à la version 17.12.<br/>
+    Les points d'accès qui resteront alors à l'ancienne version devront se connecter au serveur RRF2 qui restera à la version 15 tant qu'il restera des stations.<br/>
+    Mais la version 15 sera définitivement arrêtée au plus tard à la fin de l'année 2019.<br/>
+
+    <h2 id="tdb">Tableau de Bord</h2>
+    Un nouveau Tableau de Bord est en service sur le RRF3 pour les links à la nouvelle version.<br/>
+    Un autre, pour le RRF2, est disponible également pour palier l'arrêt prochain du RRF1. <br/>
+    <br/>
+    Sur ces Tableaux de Bord, vous verrez des nodes spéciaux : F6KBO-L, F6KBO-R, RRF3, bretelle_xxx, ....<br/>
+    Ce sont les passerelles qui permettent de relier les deux versions de Svxlink.
+
+    <h2 id="infos">Informations sur les futures évolutions</h2>
+    Les informations à venir seront principalement diffusées sur le RRF et sur le groupe Yahoo "RRF_radioamateur". <br/>
+    Vous pouvez demander au Sysop de votre point d'accès local qui devrait être en mesure de vous renseigner.<br/>
+    <br/>
+    <h2 style="font-size: 1em;">Bon trafic sur le RRF et cordiales 73s.<br/>
+    L'équipe d'Admin du RRF</h2>
+    <br/>
+
+
+
+  </body>
+</html>

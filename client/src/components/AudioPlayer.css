@@ -1,0 +1,263 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
+
+/* Colors*/
+/*
+black= #121212;
+"$white": #FFFFFF;
+$orange: #FF4700;
+$blue: #1D2D3A;
+*/
+
+/* Mixins*/
+/*
+@mixin generate-gradient($color) {
+	background: -moz-linear-gradient(top, rgba($color,0) 0%, rgba($color,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba($color,0)), color-stop(100%, rgba($color,1)));
+	background: -webkit-linear-gradient(top, rgba($color,0) 0%, rgba($color,1) 100%);
+	background: -o-linear-gradient(top, rgba($color,0) 0%, rgba($color,1) 100%);
+	background: -ms-linear-gradient(top, rgba($color,0) 0%, rgba($color,1) 100%);
+	background: linear-gradient(to bottom, rgba($color,0) 0%, rgba($color,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4800', endColorstr='#ff4800', GradientType=0 );
+}
+*/
+
+/* Styles*/
+/*
+body {
+	align-items: center;
+	background: darken(blue, 10);
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	height: 100vh;
+	justify-content: center;
+}
+
+.Player {
+	background: darken(blue, 3);
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 5px 10px -5px rgba(black, 1);
+	height: 667px;
+	position: relative;
+	width: 375px;
+}	
+
+.Player .Background {
+		width: 150%;
+		height: 150%;
+		position: absolute;
+		top: -25%;
+		left: -25%;
+		background-size: cover;
+		background-position: center center;
+		opacity: .2;
+		filter: blur(10px);
+	}
+	
+*/
+	.boutonUp {
+		border-style: outset;
+		border-radius: 30%;
+	}	
+
+	.boutonDown {
+		border-style: inset;
+		border-radius: 30%;
+	}
+
+	#canvas {
+		/*border: solid black 1px;*/
+		border-style:inset;
+		/*border-color: black #eeeeee #eeeeee black;*/
+		border-width: 3px; 
+		/*margin: 0 0 0 20px;*/
+		background-color: rgb(26, 181, 243);
+		vertical-align: top;
+	}
+
+	#poignee {
+		display: inline-table;
+    	vertical-align: top;
+		height: 100px;
+		cursor: default;
+	}
+
+	#poignee #sens {
+		display: table-cell;
+		vertical-align: middle;
+		font-size: x-large;
+		font-weight: bold;
+	}
+
+	#poignee.opened {
+    	border-style: groove;
+    	border-left-style: none;
+	}
+
+	#poignee.closed {
+		border-style: groove;
+	}
+
+	#poignee.opened.pushed {
+		border-style: inset;
+		border-left-style: none;
+	}
+
+	#poignee.closed.pushed {
+    	border-style: inset;
+	}
+
+	#divVu, #divVu2 {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 20px 0 0;
+		/*width: 480px;
+		height: 320px;*/
+		position: relative;
+		/*background-image: url("/p128-f1a.jpg");*/
+		text-align:left;
+		border-style:inset;
+		/*border-color: black #eeeeee #eeeeee black;*/
+		border-width: 3px; 
+		
+	  }
+	#divVu canvas {
+		position: absolute;
+		top: 0;
+		/*border-style:solid;
+		border-color: black #eeeeee #eeeeee black;
+		border-width: 3px; 
+		*/
+		background-color: rgba(243, 167, 26, 0.2);
+	}
+/*
+	.Title {
+		width: 300px;
+		margin: 50px auto;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: .1em;
+		position: relative;
+	}
+	
+	.Artwork {
+		width: 300px;
+		height: 300px;
+		background-size: cover;
+		background-position: center center;
+		border-radius: 4px;
+		margin: auto;
+		box-shadow: 0 5px 10px -5px rgba(black, .25);
+		position: relative;
+	}
+	
+	.TrackInformation {
+		width: 300px;
+		margin: 30px auto;
+		text-align: center;
+		position: relative;
+	}	
+	.TrackInformation .Name {
+			font-size: 24px;
+			margin-bottom: 10px;
+			font-weight: 300;
+		}
+		
+	.TrackInformation .Artist {
+			font-size: 16px;
+			margin-bottom: 5px;
+			font-weight: 500;
+		}
+		
+	.TrackInformation .Album {
+			font-size: 12px;
+			opacity: .5;
+		}
+	
+	
+	.Scrubber {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 20%;
+		opacity: .2;
+		transition: opacity .25s ease;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+
+	.Scrubber .Scrubber-Progress {
+			@include generate-gradient($orange);
+			height: 100%;
+			width: 0%;
+			transition: width .25s ease;
+			pointer-events: none;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+	
+	
+	.Timestamps {
+		display: flex;
+		justify-content: space-between;
+		box-sizing: border-box;
+		padding: 20px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		pointer-events: none;
+		z-index: 2;
+		width: 100%;
+	}
+
+	.Timestamps .Time {
+			font-size: 12px;
+		
+	}
+	
+	.Controls {
+		position: absolute;
+		bottom: 8%;
+		pointer-events: none;
+		margin: auto;
+		left: 0;
+		right: 0;
+	}
+
+	.Controls .Button {
+			height: 75px;
+			width: 75px;
+			border: 2px solid rgba(white, .5);
+			box-sizing: border-box;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 75px;
+			box-shadow: 0 5px 10px 0px rgba(black, .125);
+			margin: auto;
+			pointer-events: all;
+	}
+
+	.Controls .Button :active {
+				transform: scale(.98);
+				background-color: white;
+	}
+
+	.Controls .Button :active .fa {
+					color: orange;
+					opacity: 1;
+				
+	}
+			
+	.Controls .Button .fa {
+				color: white;
+				opacity: .5;
+				font-size: 24px;
+	}			
+	
+	.Controls .Button .fa .fa-play {
+					margin-left: 5px;
+	}
+	*/

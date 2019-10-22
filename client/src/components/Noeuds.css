@@ -1,0 +1,214 @@
+.noeuds {
+    display: block;
+    /*border: solid grey 1px;*/
+    text-align: left;
+    width: auto;
+    padding: 0px;
+   }
+
+   /*
+.noeuds>div{
+    background-color: #ccc;
+    border-style:solid;
+    border-color: #eeeeee green black #eeeeee;
+    border-width: 2px; 
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.noeuds>div>div{
+    background-color: #fff;
+    border-style:solid;
+    border-color: red #eeeeee #eeeeee black;
+    border-width: 2px; 
+    border-radius: 10px;
+    padding: 0;
+}
+*/
+
+#topDiv{
+    /*border: solid rgb(0, 0, 0) 1px;
+    border-right: solid rgb(0, 0, 0) 2px;
+    border-bottom: solid rgb(0, 0, 0) 2px;*/
+    border-style:outset;
+    /*order-color: #eeeeee black black #eeeeee;*/
+    border-width: 4px; 
+    
+    border-radius: 15px;
+    /*display: inline;*/
+    /*width: 100%;*/
+    margin: 1em auto;
+    padding: 0.75em 0.75em 0.5em 0.75em;
+    position: relative;
+    background-color: #ccc;
+    max-width: 910px;
+}
+
+#topDiv h1 {
+    margin-block-start: 0;
+    margin: 0;
+}
+
+#topDiv h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#topDiv h1 a:hover{
+    color: rgb(26, 181, 243);
+}
+
+#topDiv h2{
+    font-size: 1em;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.5em;
+}
+
+#topDiv hr {
+    clear: both;
+}
+
+#topDiv .message {
+    margin-block-end: 0.5em;
+    padding: 0 220px 0 100px;
+    color: red;
+    font-weight: bold;
+}
+
+#boutons {
+    margin-top: 0.5em;
+    margin-right: 0px;
+    margin-left: 280px;
+    text-align: left;
+}
+.noeud {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    margin: 3px 5px;
+    text-align: left;
+    background-color: rgb(254,254,254);
+/*    opacity: 0.5;*/
+}
+
+#tx, #txMap {
+    text-align: center;
+    font-weight: bold;
+}
+    
+#tx {
+    /*display: inline;*/
+    /*position: absolute;*/
+    right: 1em;
+    /*bottom: 1em;*/
+    /*height: 75px;*/
+    border-style: inset;
+    padding: 2px 0 2px;
+    height: 86px;
+}
+
+#tx p, #salon p {
+    margin: 0;
+    text-align:left;
+    padding-left:10px;
+}
+
+#salon {
+    right: 1em;
+    /*border-style: inset;*/
+    margin-bottom: 15px;
+    /*margin-top: 15px;*/
+    font-weight: bold;
+}
+
+.btnSalon {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    border-style: outset;
+    border-radius: 30%;
+    display: block;
+    float: right;
+    margin: 7px -25px 0 0;
+}
+
+.btnSalon:hover {
+    background-color: snow;
+}
+
+.slctSalon {
+    display: flex;
+    position: relative;
+    height: 21px;
+    width: auto;
+    padding: 5px;
+    border-style: inset;
+    border-radius: 5px;
+    /*margin: 3px 0px;*/
+    text-align: left;
+    background-color: rgb(26, 181, 243);
+}
+
+#listeSalons {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    left: -2px;
+    top: 33px;
+    font-weight: normal;
+}
+
+#listeSalons div {
+    height:21px;
+    width: 172px;
+    padding: 5px;
+    border: 1px solid;
+    text-align: left;
+    background-color: rgb(26, 181, 243);
+}
+
+#listeSalons div:hover {
+    background-color: hsl(197, 90%, 40%);
+}
+
+.bandV {
+    background-color: #e8ffe8;
+    border: 1px solid #0f0;
+}
+
+.bandU {
+    border: 2px solid yellow;
+}
+
+.band10M, .bandT10M {
+    border: 1px solid blue;
+    background-color: #eef;
+}
+
+.notInDB {
+    background-color: #f8f8f8;
+    border-color:#aaa;
+    color: #aaa;
+}
+
+.txon {
+    background-color: #0f0;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+.clearF {
+    clear: both;
+}

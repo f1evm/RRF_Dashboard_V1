@@ -1,0 +1,282 @@
+.App {
+  text-align: center;
+  /*max-width: 1008px;*/
+  margin: 0 auto;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: rgb(117, 117, 117);
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+  display: none;
+}
+
+.App-header h1 {
+  margin: 0.5em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#audioStream {
+  text-align: left;
+  display: inline;
+}
+
+.buttonTab {
+  margin: 15px 0 0 0;
+  
+}
+
+.buttonTab2 {
+  margin: 15px 0 0 20px;
+  
+
+}
+
+.buttonChat, .buttonStats, .buttonAllstar, .buttonV2 {
+  margin-left: 15px;
+
+}
+.buttonChat a, .buttonStats a, .buttonAllstar a, .buttonV2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttonV2, .buttonV2 a {
+  color: red;
+}
+
+.copyright {
+  margin-top: 30px;
+  font-size: 0.7em;
+  color: #fff;
+  letter-spacing:2px;
+}
+
+.connectes{
+  margin-top: 25px;
+  font-size: 0.8em;
+  color: #000;
+  letter-spacing:1px;
+
+}
+
+.leaflet-control {
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 3px;
+  text-align: left;
+  padding: 5px;
+}
+
+.leaflet-control span {
+  display: inline-flex;
+}
+
+.iconLegend {
+  width: 15px;
+  height: 15px;
+}
+
+#timer {
+  /*height: 6px;*/
+  /*padding: 5px auto 0;*/
+  /*width: 150px;*/
+  background-color: transparent;
+  /*border: 1px solid black;*/
+  text-align: left;
+ /* display: flex;*/
+  width: 160px;
+  margin: 4px 5px;
+  height: 10px;
+  /*position: relative;*/
+}
+
+#timer .barre {
+  height: 6px;
+  width: 100%;
+  display: flex;
+}
+
+#timer .barre span {
+  background-color: rgb(4, 206, 4);
+}
+
+#timer .time {
+  font-size: 0.8em;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: -12px;
+}
+
+.ckb{
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.ckb > input{ /* HIDE ORG CHECKBOX */
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* CHECKBOX STYLES */
+/* DEFAULT <i> STYLE */
+.ckb i{ 
+  display: inline-block;
+  vertical-align: middle;
+  width:  16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: 0.2s;
+  box-shadow: inset 0 0 0 8px #f4f4f4;
+  border: 1px solid gray;
+  background: gray;
+}
+
+/* CHECKBOX OVERWRITE STYLES */
+.ckb i {
+  width: 40px;
+  border-radius: 8px;
+}
+
+/* CHECKBOX */
+.ckb i::after{
+  content: "";
+  display: block;
+  height: 12px;
+  width:  12px;
+  margin: 1px;
+  border-radius: 50%;
+  transition: inherit;
+  background: gray;
+  border: 1px solid #6b6b6b;
+}
+
+.checked i::after{ /* (RADIO CHECKED) <i> STYLE */
+  margin-left: 11px;
+  background: #1ab5f3;
+}
+
+.ckbUn i::after{ /* (RADIO CHECKED) <i> STYLE */
+  margin-left: 13px;
+  background: #1ab5f3;
+}
+
+.ckbDeux i::after{ /* (RADIO CHECKED) <i> STYLE */
+  margin-left: 24px;
+  background: hsl(197, 73%, 75%);
+}
+
+.ckb div {
+  font-size: 0.6em;
+  color: #000;
+  letter-spacing:1px;
+
+}
+
+.lienQrzCom {
+  text-decoration: none;
+  color: rgb(18, 56, 182);
+  font-size: 0.9em;
+}
+
+#infosButton {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  position: relative;
+  bottom: -6px;
+  margin-left: 15px;
+}
+
+#liste button {
+  font-size: 1.1em;
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+
+#liste button img {
+  width:1.5em;
+  vertical-align: middle;
+  margin-right: 0.5em;
+}
+
+#lpa {
+  text-align: center;
+}
+
+#lpa h2 {
+  margin-top: 0;
+  
+}
+
+#lpa table {
+  border-collapse: collapse;
+  margin: 0px auto;
+}
+
+#lpa thead {
+  background-color: #C9E0FF;
+}
+
+#lpa table, th, td {
+  border: 1px solid gray;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+#lpa td:first-child{
+  font-weight:bold;
+}
+
+/*#lpa th:last-child{
+  width:50%;
+}*/
+
+#lpa tbody tr {
+  background-color: white;
+/*  opacity: 0.6; */
+}
+
+#lpa tbody tr:hover {
+  background-color: #91d3ee;
+  opacity:1;
+}
+
+/*#lpa td:nth-child(2){
+  text-align: right;
+  padding-right: 4%;
+}*/
+
+/*#lpa td:nth-child(3){
+  text-align: center;
+}*/

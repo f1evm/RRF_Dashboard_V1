@@ -1,0 +1,1 @@
+Le serveur V1 sera arrêté fin septembre 2019 au plus tard. Veuillez migrer en V2.0. Infos : admin@f5nlg.ovh

@@ -42,6 +42,12 @@
     position: relative;
     background-color: #ccc;
     max-width: 910px;
+    background-image: url("/images/halloween/hh.jpg");
+    background-repeat: repeat;
+    background-position: center top;
+    background-clip: border-box;
+    background-size: contain;
+    color:white;
 }
 
 #topDiv h1 {
@@ -51,7 +57,7 @@
 
 #topDiv h1 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #topDiv h1 a:hover{
@@ -148,7 +154,9 @@
     border-radius: 5px;
     /*margin: 3px 0px;*/
     text-align: left;
-    background-color: rgb(26, 181, 243);
+    /*background-color: rgb(26, 181, 243);*/
+    background-color: rgb(255, 128, 0);
+
 }
 
 #listeSalons {
@@ -166,7 +174,8 @@
     padding: 5px;
     border: 1px solid;
     text-align: left;
-    background-color: rgb(26, 181, 243);
+    /*background-color: rgb(26, 181, 243);*/
+    background-color: rgb(255, 128, 0);
 }
 
 #listeSalons div:hover {

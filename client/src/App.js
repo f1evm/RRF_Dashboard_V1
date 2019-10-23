@@ -213,7 +213,7 @@ class App extends Component {
         <header className="App-header">
           <h1>Tableau de Bord RRF</h1>
         </header>
-
+        
           <div id="topDiv">
             <div className="droite" style={{/*border: 'solid red',*/ right:30, position: 'relative'}}>
               <Salon changeSalon={this.changeSalon} salon={this.state.salon} liste={this.state.listeSalons} />

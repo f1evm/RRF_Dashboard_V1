@@ -6,6 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  background: url("/images/halloween/giphy.gif") -80px 0px/400px no-repeat,url("/images/halloween/tagh.png") 0 0/350px no-repeat,url("/images/halloween/citr1.png") 100% 0/350px no-repeat,url("/images/halloween/giphy.gif") 100% 0px/400px no-repeat,linear-gradient(orange,#fff);
 }
 
 code {

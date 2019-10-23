@@ -79,7 +79,7 @@
 .connectes{
   margin-top: 25px;
   font-size: 0.8em;
-  color: #000;
+  color: white;
   letter-spacing:1px;
 
 }
@@ -280,3 +280,4 @@
 /*#lpa td:nth-child(3){
   text-align: center;
 }*/
+

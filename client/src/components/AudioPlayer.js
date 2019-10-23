@@ -20,7 +20,7 @@ class AudioPlayer extends Component {
                 vuType: "analog",    // vuType : rectangle, analog
             },
             vuOn: true,
-            spectrum: true
+            spectrum: false
         }
     }
 
@@ -205,7 +205,7 @@ x=0;
                 <span>&nbsp;&nbsp;&nbsp;</span>
                 <VuMeter {...this.state.vuMeter} />
                 <canvas id="canvas" style={this.state.spectrum ? {} : {display:'none'}} width="256" height="100"></canvas>
-                <div id="poignee" className="opened" onMouseDown={this.mouseDown} onClick={this.toggleSpectrum} title="Fermer l'analyseur de spectre"><p id="sens">{'<'}</p></div>
+                <div id="poignee" className="closed" onMouseDown={this.mouseDown} onClick={this.toggleSpectrum} title="Fermer l'analyseur de spectre"><p id="sens">{'>'}</p></div>
             </div>
         );
     }

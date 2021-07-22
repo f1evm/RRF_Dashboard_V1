@@ -20,7 +20,7 @@
     "jsonfile": "^5.0.0",
     "request": "^2.88.0",
     "slice-file": "^1.0.0",
-    "xlsx": "^0.14.2"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.0"
